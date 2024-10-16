@@ -1,0 +1,16 @@
+
+#contenido_container{
+    border-radius: 1vi;
+    background-color: rgb(214, 214, 214);
+    width: 100%;
+    height: auto;
+    border-bottom: 1vi;
+    display: flex;
+}
+
+#card-contenido{
+    border-radius: 1vi;
+    margin: 1vi;
+    padding: 1vi;
+    background-color: rgb(255, 255, 255);
+}

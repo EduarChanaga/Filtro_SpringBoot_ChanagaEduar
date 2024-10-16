@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/contenido.css">
+</head>
+<body>
+    <form id="cerrar">
+        <a href="./index.html"><button type="submit">Exit</button></a>
+    </form>
+
+    <div class="cuadro-individual">
+        <h3>Agregar Contenido</h3>
+        <form id="form-agregar-contenido">
+            <input type="text" id="nombre-agregar-contenido" placeholder="Nombre" required>
+
+            <select id="tipo-agregar-contenido" class="styled-select">
+                <option value="">Seleccione un tipo de contenido</option>
+                <option value="Serie">Serie</option>
+                <option value="Pelicula">Pelicula</option>
+                <option value="Libro">Libro</option>
+                <option value="Podcast">Podcast</option>
+                <option value="Videojuego">Videojuego</option>
+            </select>
+
+            <input type="text" id="genero-agregar-contenido" placeholder="Genero (accion, aventura)" required>
+            <select id="estado-agregar-contenido" class="styled-select">
+                <option value="">Seleccione un estado de contenido</option>
+                <option value="Pendiente">Pendiente</option>
+                <option value="Viendo">Viendo</option>
+                <option value="Terminado">Terminado</option>
+                <option value="Abandonado">Abandonado</option>
+                <option value="En Pausa">En Pausa</option>
+            </select>
+            <input type="text" id="plataforma-agregar-contenido" placeholder="Plataforma" required>
+            <input type="number" id="calificacion-agregar-contenido" placeholder="Calificacion (1-10)" required>
+            <input type="text" id="comentario-agregar-contenido" placeholder="comentario" required>
+            <button type="submit">Agregar Contenido</button>
+        </form>
+    </div>
+
+    <br><br>
+
+    <div id="contenidos-container">
+        <div id="contenido_container">
+
+        </div>
+    </div>
+    
+</body>
+<script src="./js/contenido.js"></script>
+</html>
